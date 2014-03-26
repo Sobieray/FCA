@@ -1,5 +1,3 @@
-	</div>
-</section>
 
 <footer class="row"><?php dynamic_sidebar("Footer"); ?></footer>
 <a class="exit-off-canvas"></a>
