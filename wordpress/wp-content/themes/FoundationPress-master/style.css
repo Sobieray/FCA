@@ -41,6 +41,7 @@ button, .button {
   margin: 0 0 1.25rem;
   position: relative;
   text-decoration: none;
+  text-transform: uppercase;
   text-align: center;
   display: inline-block;
   padding-top: 1rem;
@@ -51,14 +52,14 @@ button, .button {
   background-color: #FFCF00;
   border-color: transparent;
   color: #000000;
+  width: 163px;
+  -webkit-transition: color 300ms ease-out;
+  -moz-transition: color 300ms ease-out;
+  transition: color 300ms ease-out;
   -webkit-transition: background-color 300ms ease-out;
   -moz-transition: background-color 300ms ease-out;
   transition: background-color 300ms ease-out;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
-  font-size: 1rem;
+ 
 }
 button:focus,
 button:hover,
@@ -79,6 +80,17 @@ button:hover,
 .subHero {
   font-family: inherit;
   font-size: 1.3rem;
+  font-family: "Open Sans Condensed","Open Sans","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  font-size: 6rem;
+  line-height: 6rem;
+  text-align: center; 
+  color: #FFFFFF;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.subHero {
+  font-family: inherit;
+  font-size: 1.2rem;
   line-height: 2rem;
   text-align: center;
   color: #FFFFFF;
@@ -153,5 +165,5 @@ button:hover,
   }
 
 }
-
 /* End of FAQ Page */
+

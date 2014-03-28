@@ -30,4 +30,4 @@ get_header(); ?>
 			</div>
 		</section>
 	<?php endwhile;?>
-<?php get_footer(); ?>
+<?php get_footer('home'); ?>
